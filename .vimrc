@@ -153,3 +153,6 @@ let g:limelight_conceal_ctermfg = 'gray'
 " Set backup directory
 set backupdir=$HOME/.backup//
 set directory=$HOME/.backup//
+
+" File type related changes
+autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
