@@ -103,6 +103,9 @@ map <leader>gc :Gcommit<CR>
 
 map <leader>n :set number!<CR>:set relativenumber!<CR>
 
+" Map paste
+map <F12> :set paste!<CR>
+
 " Searching
 set hlsearch
 set incsearch
