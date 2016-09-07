@@ -169,3 +169,9 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+
+" Cursor line
+set cursorline
+highlight CursorLine ctermbg=237 guibg=#3c3836
+autocmd InsertEnter * highlight CursorLine ctermbg=240 guibg=#4c4846
+autocmd InsertLeave * highlight CursorLine ctermbg=237 guibg=#3c3836
