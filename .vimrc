@@ -13,7 +13,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'honza/vim-snippets'
     Plug 'terryma/vim-multiple-cursors'
     Plug 'bkad/CamelCaseMotion'
-    Plug 'altercation/vim-colors-solarized'
+"    Plug 'altercation/vim-colors-solarized'
     Plug 'easymotion/vim-easymotion'
     Plug 'morhetz/gruvbox'
     Plug 'bling/vim-airline'
