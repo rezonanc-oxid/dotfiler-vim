@@ -154,8 +154,8 @@ let g:jedi#popup_on_dot = 0
 let g:limelight_conceal_ctermfg = 'gray'
 
 " Set backup directory
-set backupdir=$HOME/.backup//
-set directory=$HOME/.backup//
+set backupdir=$HOME/.vim/backup//
+set directory=$HOME/.vim/backup//
 
 " File type related changes
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
